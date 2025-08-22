@@ -1,0 +1,14 @@
+{
+  "functions": {
+    "api/imagelogger.py": {
+      "maxDuration": 30,
+      "memory": 1024
+    }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/api/imagelogger.py"
+    }
+  ]
+}
